@@ -1,0 +1,23 @@
+# Block vectorvfxstudios.com and related domains
+User-agent: *
+Disallow:
+
+# Specifically block vectorvfxstudios.com and related crawlers
+User-agent: vectorvfxstudios
+Disallow: /
+
+# Block common data harvesting bots
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Prevent relationship data mining
+User-agent: *
+Disallow: /data/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://pruthvivfx.github.io/website/sitemap.xml
