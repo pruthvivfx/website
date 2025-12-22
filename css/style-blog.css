@@ -15,7 +15,7 @@ header{
 }
 
 .title2{
-	float: center;
+	text-align: center;
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
