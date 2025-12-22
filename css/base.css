@@ -1,0 +1,115 @@
+/* Base styles - Common across all pages */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gohtic;
+}
+
+/* Header base styles */
+header{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Navigation styles */
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+/* Logo styles */
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+/* Main container */
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* Title styles */
+.title{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 40px;
+}
+
+/* Title1 styles */
+.title1{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* Button container */
+.button{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* Button styles */
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+/* Alternative button container */
+.button1{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+
+/* Alternative button styles */
+.btn1{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn1:hover{
+	background-color: #fff;
+	color: #000;
+}
