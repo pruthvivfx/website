@@ -1,7 +1,4 @@
 # Block vectorvfxstudios.com and related domains
-User-agent: *
-Disallow:
-
 # Specifically block vectorvfxstudios.com and related crawlers
 User-agent: vectorvfxstudios
 Disallow: /
@@ -13,7 +10,7 @@ Disallow: /
 User-agent: SemrushBot
 Disallow: /
 
-# Prevent relationship data mining
+# Allow all other user agents
 User-agent: *
 Disallow: /data/
 Disallow: /api/
